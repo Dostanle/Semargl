@@ -1,0 +1,4 @@
+{
+"ssid":"morgot",
+"ssidpass":"ddarst38"
+}

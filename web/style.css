@@ -1,0 +1,77 @@
+.row {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+.col {
+  border: solid 1px #6c757d;
+  padding: 10px;
+}
+
+.btn.active {
+  background-color: green !important;
+}
+
+.btn-off.active {
+  background-color: red !important;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+////////////////////// Slider/////////////////
+.row {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+.col {
+  border: solid 1px #6c757d;
+  padding: 10px;
+}
+
+.btn.active {
+  background-color: green !important;
+}
+
+.btn-off.active {
+  background-color: red !important;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.slider.slider-horizontal .tooltip.tooltip-main.in,
+.slider.slider-vertical .tooltip.tooltip-main.in {
+  opacity: 1 !important;
+}
+
+#sliderSvit .slider-track-high,
+#sliderSvit .slider-track-low {
+  background: red;
+}
+
+#sliderVentChas .slider-selection,
+#sliderVentInt .slider-selection,
+#sliderVentVol .slider-selection,
+#sliderVentTemp .slider-selection,
+#sliderNichVentChas .slider-selection,
+#sliderNichVentInt .slider-selection,
+#sliderNichVentVol .slider-selection,
+#sliderNichVentTemp .slider-selection,
+#sliderParChas .slider-selection,
+#sliderParInt .slider-selection,
+#sliderParVol .slider-selection,
+#sliderVodaChas .slider-selection,
+#sliderVodaInt .slider-selection,
+#sliderZemVol .slider-selection,
+#sliderSvit .slider-selection {
+  background: green;
+}
+
+.slider.slider-horizontal {
+  width: 200px;
+}
+

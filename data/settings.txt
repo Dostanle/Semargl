@@ -1,0 +1,26 @@
+{
+  "ventNight": {
+    "toggle": 1,
+    "interval": [20,5],
+    "detector": [0,60,0,24]
+  },
+  "vent": {
+    "toggle": 1,
+    "interval": [10,4],
+    "detector": [0,60,0,24]
+  },
+  "light": {
+    "toggle": 1,
+    "interval": [400,1000]
+  },
+  "hum": {
+    "toggle": 2,
+    "interval": [20,5],
+    "detector": [10,50]
+  },
+  "water": {
+    "toggle": 3,
+    "interval": [15,6],
+    "detector": 1700
+  }
+}
